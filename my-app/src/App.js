@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
-import MainPage from 'C:/Users/brand/Desktop/HACKunt2022/HACKunt2022/my-app/src/Components/MainPage.JS';
-
+import MovieList from './Components/MovieList.js';
 function App() {
   return (
 
     <div>
 
-      test
-
-      <MainPage/>
+      <MovieList/>
 
     </div>
     
