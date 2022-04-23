@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import React from 'react';
 import './App.css';
+import MainPage from 'C:/Users/brand/Desktop/HACKunt2022/HACKunt2022/my-app/src/Components/MainPage.JS';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          CLICK HERE TO LEARN
-        </a>
-      </header>
+
+    <div>
+
+      test
+
+      <MainPage/>
+
     </div>
+    
   );
 }
 
