@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-import MovieList from './Components/MovieList.js';
+import LinkAPI from './Components/LinkAPI';
+// import MovieList from './Components/MovieList.js';
 function App() {
   return (
 
     <div>
 
-      <MovieList/>
+      {/* <MovieList/> */}
+
+      <LinkAPI/>
 
     </div>
     
