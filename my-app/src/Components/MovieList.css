@@ -1,0 +1,112 @@
+.movies{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr 3fr; 
+    padding-bottom: 10%;
+    padding-left: 5%; 
+    background-color: #000000;
+}
+
+.movieHead{
+    color: rgb(9, 255, 0);
+    position: relative;
+    text-align: center;
+  text-decoration: none;
+  justify-content: center;
+
+}
+
+
+.movies img{
+    width: 90%;
+}
+
+.movieDesc{
+  width: 80%;
+  font-size: 50%;
+}
+
+.text{
+    color: aqua;
+}
+
+.movie{
+   /* padding: 1px; */
+}
+
+.atcBtn {
+  background-color: #292b2ee8;
+  border: black;
+  color: hsl(39, 100%, 50%);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  .rmBtn {
+    background-color: hsl(39, 100%, 50%);;
+    border: black;
+    color: #292b2ee8;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  .topBtnsL{
+    background-color: #292b2ee8;
+    border: black;
+    color: hsl(39, 100%, 50%);
+    padding: 1px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .topBtns{
+    background-color: #292b2ee8;
+    border: black;
+    color: hsl(39, 100%, 50%);
+    padding: 1px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+.quantity{
+    padding: 2px;
+}
+
+.topH{
+  text-align: center;
+  position: center;
+  padding-top: 10px;
+}
+
+.topA{
+  display: flex; /* or display:grid */
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.topC{
+  text-align: center;
+  position: center;
+  padding-top: 10px;
+}
+
+.price{
+  color: orange;
+}
+
+.editCart{
+    border: #000000;
+    color: hwb(39 0% 0%);
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+}
