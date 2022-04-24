@@ -5,7 +5,7 @@ import MovieList from './Components/MovieList.js';
 function App() {
   return (
 
-    <div>
+    <div className='body'>
 
       <MovieList/>
 

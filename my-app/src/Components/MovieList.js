@@ -132,15 +132,15 @@ const navigateTo = (nextPage) => {
 
 const renderMovies = () => (
    <>
-        <h1>movies list</h1>
+        <h1 className="movieHead">Movies List</h1>
 
         <div className="movies">
         {getMovies().map((movie,idx) => (
 
         <div className="movie" key ={idx}>
 
-        <h3>{movie.name}</h3>
-        <h4>{movie.rating}</h4>
+        <h3 className="text">{movie.name}</h3>
+        <h4 className="text">{movie.rating}</h4>
         <p>
             <img src={movie.image} alt={movie.name} />
         </p>
